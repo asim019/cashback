@@ -148,12 +148,12 @@ public class FileSplitter {
 		return true;
 	}
 
-	/*	private void putFileInfoInInstance(){
+	private void putFileInfoInInstance(){
 		if(this.loadinputFile()){
 			inputFile.length();
 		}
 	}
-*/	
+	
 	public boolean split(){
 		if(this.isSplittingInProcess()){
 			return false;
